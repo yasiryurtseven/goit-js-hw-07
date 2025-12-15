@@ -1,0 +1,44 @@
+.login-form input  {
+    display: flex;
+    flex-direction: column;
+}
+input.email, input.password{
+    width: 360px;
+    height: 40px;
+    border:  1px solid #808080;
+    border-radius: 4px;
+    padding:  8px;
+    margin: 8px 0 16px 0;
+
+}
+
+label{
+    color: #2E2F42;
+}
+.email:hover{
+    border-color: #000;
+} 
+.password:hover{
+    border-color: #000;
+}
+.email:focus{
+    outline: none;
+    color: #808080;
+} 
+.password:focus{
+    outline: none;
+    border-color: #808080;
+}
+button{
+    width: 86px;
+    height: 40px;
+    background-color: #4E75FF;
+    border: 1px solid #4E75FF;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #6C8CFF;
+}
