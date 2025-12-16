@@ -1,19 +1,25 @@
-/* 1 */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 1128px;
 
-position: absolute;
-width: 360px;
-height: 300px;
-left: 156px;
-top: 100px;
+}
+.gallery-item{
+    width: 360px;
+    height: 300px;
+    overflow: hidden;
+}
+.gallery-image{
+    width: 360px;
+    height: 300px;
+    object-fit: cover;
+}
 
-background: url(ux-indonesia-qC2n6RQU4Vw-unsplash.jpg);
 
 
-/* Section 1 */
-
-position: absolute;
-width: 1128px;
-height: 300px;
-left: 156px;
-top: 100px;
 

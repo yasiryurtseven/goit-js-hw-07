@@ -29,9 +29,11 @@ const galleryContainer = document.querySelector(".gallery");
 
 const items = images.map(image => {
   const li = document.createElement("li");
+  li.classList.add("gallery-item")
   const img = document.createElement("img");
+  img.classList.add("gallery-image")
 
-  img.src = image.src;
+  img.src = image.url;
   img.alt = image.alt;
 
   li.appendChild(img);
